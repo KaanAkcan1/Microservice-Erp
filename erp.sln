@@ -4,17 +4,26 @@ VisualStudioVersion = 17.13.35913.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gateway", "gateway", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YARP.Gateway", "gateway\YARP.Gateway\YARP.Gateway.csproj", "{179CF35D-9D23-4877-BE69-E5E35C48696A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YARP.Gateway", "..\..\..\..\..\..\..\..\Source\Kaan\erp\gateway\YARP.Gateway\YARP.Gateway.csproj", "{179CF35D-9D23-4877-BE69-E5E35C48696A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4E7653FD-87F9-4784-8876-6F9C850E4080}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OrderService", "OrderService", "{6FC113B8-CEC7-408B-B91C-ABBDAC68558F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.API", "src\OrderService\OrderService.API\OrderService.API.csproj", "{BDC681E6-5FAA-4D30-A188-EB1CE66A670D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderService.API", "..\..\..\..\..\..\..\..\Source\Kaan\erp\src\OrderService\OrderService.API\OrderService.API.csproj", "{BDC681E6-5FAA-4D30-A188-EB1CE66A670D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ProductService", "ProductService", "{0CDD7CF4-9D0D-45FC-B1C7-AD4485B65B41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService.API", "src\ProductService\ProductService.API\ProductService.API.csproj", "{56B7E657-D420-42F1-8DE5-6442BCE583FB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductService.API", "..\..\..\..\..\..\..\..\Source\Kaan\erp\src\ProductService\ProductService.API\ProductService.API.csproj", "{56B7E657-D420-42F1-8DE5-6442BCE583FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{C3B5CEFB-2CF8-4F45-93D7-3A2CF73B73AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{781836C4-5DF0-43EF-A809-4E510FBC1756}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "monitoring", "monitoring", "{9224FFEC-280E-492F-9DF1-37938C0458E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +53,7 @@ Global
 		{BDC681E6-5FAA-4D30-A188-EB1CE66A670D} = {6FC113B8-CEC7-408B-B91C-ABBDAC68558F}
 		{0CDD7CF4-9D0D-45FC-B1C7-AD4485B65B41} = {4E7653FD-87F9-4784-8876-6F9C850E4080}
 		{56B7E657-D420-42F1-8DE5-6442BCE583FB} = {0CDD7CF4-9D0D-45FC-B1C7-AD4485B65B41}
+		{C3B5CEFB-2CF8-4F45-93D7-3A2CF73B73AA} = {4E7653FD-87F9-4784-8876-6F9C850E4080}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7BE112ED-1C3C-4CB2-80D1-54685176F1DE}
